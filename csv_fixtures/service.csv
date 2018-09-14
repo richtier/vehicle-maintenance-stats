@@ -1,0 +1,138 @@
+"Vehicle","Type Of Service","Materials","Oil","Diesel Filter","Air Filter","Miles","Date","Cost"
+"Audi","General","Tyre changed rear right edge worn away suspect had been used on front. Tracking checked",0,0,0,34934,"05/04/2007 00:00:00",80.0000
+"MicraS","General","Air Filter Change",0,0,1,23800,"21/12/2014 00:00:00",6.5000
+"MicraA","General","Nissan Oil from Dads",1,0,1,42113,"21/09/2014 00:00:00",15.5000
+"MicraA","Routine","Cambelt kit from Nissan Scunthorpe",0,0,0,45560,"04/04/2015 00:00:00",130.0000
+"Audi","Routine","Front flexible brake hoses changed new fluid pumped through DOT 4.",1,0,1,96570,"07/07/2015 00:00:00",72.5000
+"MicraA","Breakdown","Front Brake Discs & Pads badly corroded",0,0,0,0,"12/07/2015 00:00:00",47.5000
+"MicraA","Routine","Oil From Dads",1,0,1,51153,"13/09/2015 00:00:00",0.0000
+"Skoda","Breakdown","Front brakes sticking new discs & pads A.E.Cooks",0,0,0,53583,"11/09/2015 00:00:00",66.5000
+"MicraS","Routine","Oil Change",1,0,1,27404,"23/12/2015 00:00:00",0.0000
+"MicraS","Routine","Oil Change",1,0,0,25407,"24/12/2015 00:00:00",27.0000
+"MicraS","General","Oil & Filter",1,0,1,34764,"29/10/2016 00:00:00",48.0000
+"Audi","General","Oil & Filters",1,0,1,103276,"29/04/2016 00:00:00",0.0000
+"MicraS","Routine","Cambelt",0,0,0,29750,"29/02/2016 00:00:00",0.0000
+"MicraA","General","Oil 5 lts AE Cook",1,0,1,71804,"04/12/2016 00:00:00",41.0000
+"Skoda","Routine","Service of vehicle",1,0,1,62062,"17/04/2017 00:00:00",68.5000
+"MicraS","Routine","Oil from Dad brake calipers cleaned pads OK.",1,0,1,47011,"19/07/2017 00:00:00",0.0000
+"Skoda","Routine","Sucked out Oil Change",1,0,0,56371,"23/01/2016 00:00:00",0.0000
+"Peugeot","General","2 Front tyres fitted Bridgestone from Kingsway tyres immingham Invoice No IC006300",0,0,0,85826,"22/04/2003 00:00:00",94.0000
+"Peugeot","Breakdown","Heater Matrix replaced",0,0,0,87450,"11/07/2003 00:00:00",70.2200
+"Escort 55D","Routine","Diesel Additive in first tank 2Gall Waxoyl",1,0,1,47817,"22/11/2003 00:00:00",14.0400
+"Peugeot","Routine","Oil Changr",1,0,0,90885,"09/12/2003 00:00:00",4.5500
+"Peugeot","Breakdown","2 Front Brake Hoses",0,0,0,0,"13/04/2004 00:00:00",0.0000
+"Escort 55D","General","2 front tyres",0,0,0,55900,"07/10/2004 00:00:00",48.6400
+"Peugeot","Routine","Oil Filter",1,0,0,96200,"27/09/2004 00:00:00",5.2500
+"Maestro Van","General","RHS front tyre changed",0,0,0,125350,"29/09/1999 00:00:00",
+"Peugeot","Routine","Diesel filter changed, brake fluid checked, battery OK, Lubricated door bottoms",1,1,0,10800,"02/07/1994 00:00:00",
+"Peugeot","Routine",,1,0,0,13751,"25/09/1994 00:00:00",
+"Peugeot","General","Brakes checked, automatic adjusters lubricated plenty left on pads, tyres changed around, new wiper blades fitted",0,0,0,16895,"21/01/1995 00:00:00",
+"Peugeot","Routine","Power steering checked & brake fluid",1,0,0,17457,"11/02/1995 00:00:00",
+"Peugeot","Routine",,1,0,0,21750,"10/06/1995 00:00:00",
+"Peugeot","Routine",,1,1,1,24950,"17/10/1995 00:00:00",
+"Peugeot","Routine","Wheels changed around",1,0,0,27347,"26/11/1995 00:00:00",
+"Peugeot","Breakdown","Water leak on thermostat houseing new Antifreeze",0,0,0,0,"17/12/1995 00:00:00",
+"Peugeot","Routine","Waxoyl underbody, Thermostat resealed again new O rings",1,0,0,30127,"16/03/1996 00:00:00",
+"Peugeot","Breakdown","Water system pressurizing cylinder head gasket blown. Cylinder head taken to Service engineering, pressure tested OK surface grind of cylinder head to remove faint mark.",0,0,0,30971,"13/04/1996 00:00:00",
+"Peugeot","Breakdown","Valves ground in No 3 piston cleaned New manifold gasket, Head gasket,Head bolts,fuel filter & cam Belt",1,1,0,30971,"22/04/1996 00:00:00",
+"Peugeot","General","New water pump fitted Filled up with ethylen antifreeze",0,0,0,30971,"27/04/1996 00:00:00",
+"Peugeot","Routine",,1,0,0,33207,"29/06/1996 00:00:00",
+"Peugeot","Routine",,1,0,0,36421,"06/10/1996 00:00:00",
+"Peugeot","Breakdown","New reverseing light switch",0,0,0,0,"02/11/1996 00:00:00",
+"Peugeot","Routine","Tail lamp, doors oiled",1,1,1,39538,"22/02/1997 00:00:00",
+"Peugeot","Breakdown","Acciddent at Glebe Road, LHS rear door replaced, LHS reat Quarter, lHS front door skin, LHS rear wheel & trim Insurance Claim
+Bonnent resprayed for bird dropping damage RHS sill recovered to match left LHS front wheel trim cost to Me of £128",0,0,0,40150,"21/03/1997 00:00:00",
+"Peugeot","Routine","Mot evey thing OK",0,0,0,40192,"19/04/1997 00:00:00",
+"Peugeot","Routine","Checked rear brake pads OK",1,0,0,42130,"23/06/1997 00:00:00",
+"Peugeot","Routine","New wiper blades",1,0,0,45231,"26/09/1997 00:00:00",
+"Peugeot","General","3 Lts of 505 antifreeze changed",0,0,0,46667,"03/11/1997 00:00:00",
+"Peugeot","General","3 tyres F&T  2 front 1 rear LHS",0,0,0,47012,"12/12/1997 00:00:00",
+"Peugeot","General",,1,0,0,48217,"08/02/1998 00:00:00",
+"Peugeot","Routine",,1,0,0,51271,"06/06/1998 00:00:00",
+"Peugeot","Routine",,0,0,1,54276,"07/08/1998 00:00:00",
+"Peugeot","General","Body waxoyled",1,0,0,54276,"12/09/1998 00:00:00",
+"Peugeot","Routine",,1,0,0,57316,"21/02/1999 00:00:00",
+"Peugeot","Routine",,1,0,0,59795,"25/06/1999 00:00:00",
+"Peugeot","Breakdown","Back exhaust box changed",0,0,0,60105,"08/07/1999 00:00:00",
+"Peugeot","General","Rear flexible brake hoses changed, body waxoyled",0,0,0,61950,"05/09/1999 00:00:00",
+"Peugeot","General","Cooling system drained mixture of 50% antifreeze added.
+Front brake pads changed
+Fuel filter changed
+Wheel trims fixed",0,1,0,62791,"27/10/1999 00:00:00",
+"Maestro Van","Routine","LHS front outer C/V boot
+Started on repairs to door bottom",0,1,1,126190,"26/10/1999 00:00:00",
+"Peugeot 205","Routine","2 glow plugs Nos 3&4",0,0,0,87000,"22/11/1999 00:00:00",
+"Maestro Van","Breakdown","Rear LHS wheel cylinder changed",0,1,1,125320,"05/11/1999 00:00:00",
+"Maestro Van","Routine","Oil change, New wiper blades",1,0,0,126610,"20/11/1999 00:00:00",
+"Peugeot","Breakdown","Interior heater changed topped up with 50% anti freeze mix",0,0,0,63933,"04/01/2000 00:00:00",
+"Peugeot","General","Cam Belt changed, crankshaft oil seal replaced. Auxillary drive belt replaced.",1,0,0,63940,"05/01/2000 00:00:00",
+"Peugeot","Routine",,1,0,1,65912,"20/04/2000 00:00:00",
+"Peugeot","Breakdown","Water system pressurizeing head gasket blown bewteen 1 & 2 cylinders. Head surface ground water mark removed. Genuine parts purchased from Crystals fitted. Filled up with 50% antifreeze mixture water system bleed for air.",0,0,0,65970,"27/04/2000 00:00:00",
+"Peugeot","Routine","MOT test every thing Ok requires two front tyres soon.",0,0,0,66066,"03/05/2000 00:00:00",
+"Peugeot","Routine","2 front tyres £64.78",0,0,0,66460,"21/05/2000 00:00:00",
+"Peugeot 205","Breakdown","Clutch cable broke changed. Oil change",1,0,0,92560,"03/05/2000 00:00:00",
+"Peugeot","Routine","Changed at Wrawby",1,0,0,67751,"10/08/2000 00:00:00",
+"Maestro Van","Breakdown","LHS rear wheel brake binding freed off & lubricated",0,0,0,134152,"06/09/2000 00:00:00",
+"Maestro Van","Breakdown","Oil leak at front new crankshaft oil seal fitted genuine. Cambelt replaced genuine total parts £38.01",1,0,0,134790,"01/10/2000 00:00:00",38.0100
+"Maestro Van","General","2.5 Lts anti freeze,battery from Cooks £33.99 Reciet No 463372, oil filter changed 1.83",1,0,0,135139,"22/10/2000 00:00:00",46.5800
+"Maestro Van","Routine","1 Tyre Rear RHS",0,0,0,135640,"12/11/2000 00:00:00",15.0000
+"Maestro Van","Breakdown","Exhaust Front pipe changed puncture in rear right exhaust reciet no 473254",0,0,0,136055,"19/11/2000 00:00:00",33.8200
+"Maestro Van","Breakdown","LHS trackrod End Worn, RHS CV boot replaced Gearbox topped up with oil MOT passed A.E Cook Reciet No 478277",0,0,0,136481,"02/12/2000 00:00:00",12.8400
+"Peugeot","Routine","Oil Filter",1,0,0,71127,"11/02/2001 00:00:00",2.0000
+"Maestro Van","Breakdown","LHS wheel hub nut loose smasshed hub second hand hub obtained new wheel bearing fitted",0,0,0,139450,"10/04/2001 00:00:00",47.0000
+"Peugeot","Routine","MotBrake cables renewed, front number plate, LHS front Cv boot, gearbox oil changed parts cost 32.40",0,0,0,72191,"23/04/2001 00:00:00",32.4000
+"Maestro Van","Breakdown","2 Tyres At front retracked with laser",0,0,0,140627,"11/06/2001 00:00:00",64.0000
+"Maestro Van","Routine","Exhaust rear box & pipe. A.E.Cook cash sale invoice 578708. Bosal pt no BOS282689",0,0,0,142392,"12/08/2001 00:00:00",27.4000
+"Peugeot","Routine","Oil Change at Dads",1,0,0,74265,"26/08/2001 00:00:00",2.5500
+"Maestro Van","Routine","Waxoiled & undersealed body panels section of welding in RHS sill. New window screen fitted Mark from scawby.",1,0,1,144817,"28/11/2001 00:00:00",90.0000
+"Peugeot","Routine","Front exhaust section + intermediate pipe.
+AE Cooke reciet N0 611729",0,0,0,77100,"01/11/2001 00:00:00",41.0900
+"Maestro Van","Breakdown","Radiator changed A.E Cooke reciet No644313",0,0,0,146274,"27/01/2002 00:00:00",46.7200
+"Maestro Van","Breakdown","Cylinder head taken off & skimmed",1,1,0,147177,"08/03/2002 00:00:00",50.0000
+"Peugeot","Routine","Front brake Discs replaced new pads fitted
+Reciet No684696
+Reciet No683444",1,0,0,78755,"21/04/2002 00:00:00",56.5700
+"Maestro Van","Breakdown","Rear brakes binding exhaust blowing. New LHS brake cable fitted also intermediate section to hand brake. New middle section ofexhaust fitted new rubber. AE Cook receit number 747284 addittion cable collected for hand brake.",0,0,0,151452,"07/09/2002 00:00:00",55.8700
+"Peugeot","General","Oil Change",1,0,0,82349,"07/09/2002 00:00:00",3.6500
+"Peugeot","Routine","Filters + Oil ME Autoparts",1,1,1,85742,"18/04/2003 00:00:00",12.0000
+"Escort 55D","Breakdown","Front breaks running warm stripped down freed off pads copper slipped. Running cool at present.",0,0,0,56000,"16/10/2004 00:00:00",0.0000
+"Escort 55D","Routine","Oil change and fuel filter",1,1,0,59072,"29/01/2005 00:00:00",6.8000
+"Peugeot","Routine","CV Boot RHS changed tyred also changed",1,1,0,100592,"17/04/2005 00:00:00",18.5000
+"Peugeot","Breakdown","MOT at Wrawby advised of potential problem with driveshaft strip downed broken spring found. Obtained replacement drive shaft from EVA bros. Swooped spring and gearbox end around. Two new gaitors fitted lower suspension ball joint.",0,0,0,100661,"24/04/2005 00:00:00",30.0000
+"Peugeot","Routine","10-30 w oil",1,0,0,106280,"11/12/2005 00:00:00",9.2000
+"Peugeot 205","Routine","Oil 10-30
+Mudflaps
+Wheel Trims",1,0,0,102492,"22/01/2006 00:00:00",10.9200
+"Peugeot","Routine","Front Brake Discs & Pads
+Rear handbrake cables
+Brake calipiers freed off
+Rear exhaust box Invoice No 627832
+Mot",0,0,0,117250,"14/04/2007 00:00:00",98.3500
+"Peugeot","General","Oil and filter change 2 new CV boots fitted split type",1,1,1,127179,"20/03/2008 00:00:00",40.0000
+"Audi","Routine","Long life oil wiper blades fuel filter pollen filter Air filter
+Parts from TPS Pictures taken",1,1,1,41974,"30/03/2008 00:00:00",88.0000
+"Audi","Routine","Front Brake Disc and pads brake warning light on fluid replaced to front cylinders very clean. Rear pad to disc distance icludes 5.5 mm back plate 12.5 mm. New pads on front includes backplate 19.5. Parts from TPS front inner wings cleaned out and waxolyd.",0,0,0,42453,"26/04/2008 00:00:00",90.0000
+"Peugeot","Breakdown","MOT failure rear brakes low small patch required front nearside inner wing.Two new rear wheel cylinders fitted and new shoes. Two patches welded in front inner wing body schulzt applied.",0,0,0,128120,"19/04/2008 00:00:00",55.0000
+"Peugeot","General","Cambelt change rocker gasket repaired",0,0,0,129217,"11/06/2008 00:00:00",14.1500
+"Audi","Routine","Camblet Kit, Water Pump, Auxillary Drive Belt & Air Conditioning Drive Belt. Anti freeze Audi G12 Changed waxoyl applied to exsposed parts.",0,0,0,48170,"19/02/2009 00:00:00",120.0000
+"Audi","Routine","2 Tyres at Front 54.70 ea +VAT
+Oil Change
+MOT",1,0,0,49512,"06/04/2009 00:00:00",73.0000
+"Audi","Breakdown","Battery falt would not starting sluggish. New battery fitted 19/02/10",0,0,0,57145,"19/02/2010 00:00:00",61.5700
+"Audi","Routine","Oil Change Long Life 3 oil used. Pollen filter changed rear brake pads changed. Waxoil to exsposed sub frame. Tyres checked.",1,0,0,57795,"09/04/2010 00:00:00",68.4000
+"Audi","Routine","Pollen filter brakes stripped and cleaned waxoly to underbody.",1,0,1,65438,"09/04/2011 00:00:00",90.0000
+"Skoda","Routine","Long life Oil",1,0,0,24615,"16/10/2011 00:00:00",35.0000
+"Audi","Routine","2 Mew Michelin Front Tyres Old tyres put onto rear.",0,0,0,69778,"01/11/2011 00:00:00",157.3400
+"Audi","General","Indiacator lamp, 5 lts of oil accumulation from prevouis services including skoda. Waxoil to exsposed under body front brake pads removed and checked.",1,0,1,73000,"07/04/2012 00:00:00",33.6100
+"Skoda","Routine","4* Tyres Nexan",0,0,0,29180,"13/04/2012 00:00:00",204.0000
+"Audi","General","MOT and service",1,0,1,70000,"22/04/2012 00:00:00",31.7300
+"Skoda","Routine","Pollen Filter parts from TPS long life 2 oil quantum",1,0,1,32820,"27/10/2012 00:00:00",59.8200
+"Skoda","Breakdown","Front left hand coil spring broke. Two new ones fitted along with replacement suspension bushes fitted. Brke pads removed cleaned and greased waxoyl applieded to body parts.",0,1,0,34950,"01/03/2013 00:00:00",137.8200
+"Audi","Routine","5 litres longlife oil pollen filter serviced ready for mot.",1,1,1,81200,"21/04/2013 00:00:00",0.0000
+"Audi","Routine","MOT 2 Dunlop esure tyres fitted to rear",0,0,0,81250,"24/04/2013 00:00:00",166.7600
+"Audi","Breakdown","Engine running cold smoke at MOT changed thermostat now running at 90 C",0,0,0,81300,"28/04/2013 00:00:00",20.0000
+"Skoda","Routine","Cambelt change along with water pump also 1.5 lts G13 antifreeze. Exchange on water pump £35",0,0,0,37603,"08/06/2013 00:00:00",151.0000
+"Skoda","Routine","Oil & Filter",1,0,0,40668,"09/11/2013 00:00:00",37.0400
+"Audi","Routine","Cambelt, Oil Filter, Anti Freeze 2* G13, Auxillary Drive Belt for cooling fan power steering alternator, Auxillary drive belt for airconditioning pump
+Water Pump
+Oil Filter",1,0,0,89800,"26/05/2014 00:00:00",89.9000
