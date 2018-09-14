@@ -28,7 +28,7 @@ class HouseContents(models.Model):
 
 
 class Vehicle(models.Model):
-    name = models.CharField(primary_key=True, max_length=24)
+    name = models.CharField(max_length=24)
     registration = models.CharField(max_length=16, blank=True, null=True)
     year_manufactured = models.DateField(blank=True, null=True)
     cost = models.DecimalField(max_digits=15, decimal_places=2, blank=True, null=True)

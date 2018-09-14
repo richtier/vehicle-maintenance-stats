@@ -70,7 +70,8 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Vehicle',
             fields=[
-                ('name', models.CharField(max_length=24, primary_key=True, serialize=False)),
+                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('name', models.CharField(max_length=24, serialize=False)),
                 ('registration', models.CharField(blank=True, max_length=16, null=True)),
                 ('year_manufactured', models.DateTimeField(blank=True, null=True)),
                 ('cost', models.DecimalField(blank=True, decimal_places=2, max_digits=15, null=True)),
