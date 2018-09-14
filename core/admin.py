@@ -1,7 +1,6 @@
 import datetime
 
 from django.contrib import admin
-from django.contrib import admin
 from django.views.generic import TemplateView
 from django.conf.urls import url
 from django.urls import reverse
@@ -9,8 +8,8 @@ from django.urls import reverse
 from core import charts, models
 
 
-admin.site.site_header = 'Vehicle Stats'
-
+admin.site.site_header = 'Vehicle stats'
+admin.site.index_title = 'Vehicle stats'
 
 class MilesPerGallonView(TemplateView):
     template_name = 'core/miles-per-gallon.html'
@@ -65,7 +64,13 @@ class FuelAdmin(admin.ModelAdmin):
 
 @admin.register(models.Service)
 class ServiceAdmin(admin.ModelAdmin):
-    list_display = ( 'date', 'vehicle', 'type_of_service', 'miles',)
+    list_display = (
+        'date',
+        'vehicle',
+        'type_of_service',
+        'miles',
+        'materials'
+    )
     list_filter = (
         'vehicle',
         'type_of_service',
