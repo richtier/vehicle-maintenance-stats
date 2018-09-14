@@ -31,7 +31,7 @@ class VehicleAdmin(admin.ModelAdmin):
         'year_manufactured',
         'miles_per_gallon_button'
     )
-    readonly_fields = ('miles_per_gallon_button',)
+
 
     def miles_per_gallon_button(self, obj):
         return '<a href="{url}">View miles per gallon</a>'.format(
@@ -49,7 +49,7 @@ class VehicleAdmin(admin.ModelAdmin):
             ),
         ] + super(VehicleAdmin, self).get_urls()
 
-    miles_per_gallon_button.short_description = 'Account Actions'
+    miles_per_gallon_button.short_description = ''
     miles_per_gallon_button.allow_tags = True
 
 
