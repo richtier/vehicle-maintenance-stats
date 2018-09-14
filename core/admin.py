@@ -32,6 +32,7 @@ class VehicleAdmin(admin.ModelAdmin):
         'miles_per_gallon_button'
     )
 
+
     def miles_per_gallon_button(self, obj):
         return '<a href="{url}">View miles per gallon</a>'.format(
             url=reverse("admin:miles-per-gallon", kwargs={'pk': obj.pk})
