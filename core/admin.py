@@ -1,11 +1,15 @@
 import datetime
 
 from django.contrib import admin
+from django.contrib import admin
 from django.views.generic import TemplateView
 from django.conf.urls import url
 from django.urls import reverse
 
 from core import charts, models
+
+
+admin.site.site_header = 'Vehicle Stats'
 
 
 class MilesPerGallonView(TemplateView):
