@@ -63,7 +63,7 @@ class Fuel(models.Model):
     litres = models.FloatField(blank=True, null=True)
     price_per_litre = models.DecimalField(
         max_digits=15,
-        decimal_places=2,
+        decimal_places=3,
         blank=True,
         null=True,
         help_text='Price per litre in pounds and pence.'
