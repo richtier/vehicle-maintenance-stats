@@ -15,7 +15,7 @@ class MilesPerGallonChart:
         self.chart.x_labels = [item['date'].strftime('%Y-%m-%d') for item in data]
 
         miles = [item['miles'] for item in data]
-        gallons = [item['litres']/3.785 for item in data]
+        gallons = [item['litres']/4.54609 for item in data]
         miles_per_gallon = [(x - miles[i - 1])/gallons[i] for i, x in enumerate(miles)][1:]
 
         self.chart.add(self.vehicle.name, miles_per_gallon, show_dots=False)
