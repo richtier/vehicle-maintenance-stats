@@ -1,6 +1,23 @@
 from datetime import datetime
 
 from django.db import models
+from django.contrib.contenttypes.fields import GenericForeignKey, GenericRelation
+from django.contrib.contenttypes.models import ContentType
+
+
+def file_generate_upload_path(instance, filename):
+    # Both filename and instance.file_name should have the same values
+    return f"{instance.file.name}"
+
+
+class Document(models.Model):
+    date = models.DateField(blank=True, null=True)
+    file = models.FileField(upload_to=file_generate_upload_path)    
+    description = models.TextField(default='', blank=True)
+
+    content_object = GenericForeignKey()
+    content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
+    object_id = models.PositiveIntegerField()
 
 
 class ElectricMeterReading(models.Model):
@@ -43,7 +60,7 @@ class Service(models.Model):
     class Meta:
         ordering = ['-date']
 
-    vehicle = models.ForeignKey(Vehicle)
+    vehicle = models.ForeignKey(Vehicle, on_delete=models.CASCADE)
     type_of_service = models.CharField(max_length=100, blank=True, null=True)
     materials = models.TextField(blank=True, null=True)
     oil = models.BooleanField()
@@ -68,7 +85,8 @@ class Fuel(models.Model):
         null=True,
         help_text='Price per litre in pounds and pence.'
     )
-    vehicle = models.ForeignKey(Vehicle)
+    vehicle = models.ForeignKey(Vehicle, on_delete=models.CASCADE)
+    documents = GenericRelation(Document, null=True)
 
     def __str__(self):
         return self.vehicle.name
