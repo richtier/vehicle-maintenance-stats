@@ -5,6 +5,7 @@ from django.views.generic import TemplateView
 from django.conf.urls import url
 from django.urls import reverse
 from django.contrib.contenttypes.admin import GenericTabularInline
+from django.utils.html import mark_safe
 
 from core import charts, models
 
@@ -55,8 +56,8 @@ class VehicleAdmin(admin.ModelAdmin):
 
 
     def miles_per_gallon_button(self, obj):
-        return '<a href="{url}">View miles per gallon</a>'.format(
-            url=reverse("admin:miles-per-gallon", kwargs={'pk': obj.pk})
+        return mark_safe('<a href="{url}">View miles per gallon</a>'.format(
+            url=reverse("admin:miles-per-gallon", kwargs={'pk': obj.pk}))
         )
 
     def get_urls(self):
