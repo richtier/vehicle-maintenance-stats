@@ -4,12 +4,29 @@ from django.contrib import admin
 from django.views.generic import TemplateView
 from django.conf.urls import url
 from django.urls import reverse
+from django.contrib.contenttypes.admin import GenericTabularInline
 
 from core import charts, models
 
 
 admin.site.site_header = 'Vehicle stats'
 admin.site.index_title = 'Vehicle stats'
+
+
+class DocumentInline(GenericTabularInline):
+    model = models.Document
+    extra = 1
+    fields = ('file', 'description', 'date')
+
+@admin.register(models.Document)
+class DocumentAdmin(admin.ModelAdmin):
+    search_fields = ('description',)
+    list_display = (
+        'pk',
+        'description',
+        'file',
+    )
+
 
 class MilesPerGallonView(TemplateView):
     template_name = 'core/miles-per-gallon.html'
@@ -28,6 +45,7 @@ class MilesPerGallonView(TemplateView):
 @admin.register(models.Vehicle)
 class VehicleAdmin(admin.ModelAdmin):
     search_fields = ('name', 'registration',)
+    inlines = [DocumentInline]
     list_display = (
         'name',
         'registration',
@@ -58,12 +76,14 @@ class VehicleAdmin(admin.ModelAdmin):
 
 @admin.register(models.Fuel)
 class FuelAdmin(admin.ModelAdmin):
+    inlines = [DocumentInline]
     list_display = ('vehicle', 'date',)
     list_filter = ('vehicle', )
 
 
 @admin.register(models.Service)
 class ServiceAdmin(admin.ModelAdmin):
+    inlines = [DocumentInline]
     list_display = (
         'date',
         'vehicle',
